@@ -64,18 +64,17 @@
 
 <body class="text-white">
   <div class="relative min-h-screen overflow-auto bg-gradient-to-br from-[#0f172a] via-[#1e293b] to-[#1e40af]">
-    <nav class="relative z-20 flex justify-center items-center pt-6 px-4">
-      <div class="flex flex-col sm:flex-row gap-2 sm:gap-4 items-center">
-        <button onclick="scrollToSection('hizmetler')" class="nav-btn wind-hover">Çalışma Alanlarımız</button>
-        <div class="hidden sm:block">|</div>
-        <button onclick="scrollToSection('calismalari')" class="nav-btn wind-hover">Çalışmalarımız</button>
-        <div class="hidden sm:block">|</div>
-        <button onclick="scrollToSection('iletisim')" class="nav-btn wind-hover">İletişim</button>
-      </div>
+    <nav class="relative z-20 flex justify-center items-center pt-12 px-4 flex-wrap gap-2 sm:gap-4">
+      <button onclick="scrollToSection('hizmetler')" class="nav-btn wind-hover">Çalışma Alanlarımız</button>
+      <div class="hidden sm:block">|</div>
+      <button onclick="scrollToSection('referanslar')" class="nav-btn wind-hover">Referanslarımız</button>
+      <div class="hidden sm:block">|</div>
+      <button onclick="scrollToSection('iletisim')" class="nav-btn wind-hover">İletişim</button>
     </nav>
 
-    <header class="relative z-10 flex flex-col items-center justify-center h-full text-center p-8 pt-16">
-      <img src="img/acar-muhendislik-erman-acar-logo.png" class="w-80 h-80 glow-hover" alt="Acar Mühendislik Logo">
+    <header class="relative z-10 flex flex-col items-center justify-center
+	    h-full text-center p-8 pt-16">
+      <img src="img/acar-muhendislik-erman-acar-logo.png" class="w-80 h-80 glow-hover sm:w-64 sm:h-64" alt="Acar Mühendislik Logo">
       <h1 class="text-5xl font-extrabold text-white mb-4 drop-shadow-lg">Acar Mühendislik</h1>
       <h2 class="text-xl font-semibold text-white mb-4">
         Ruhsat, imar ve yapı projelerinde çözüm ortağınız
@@ -104,7 +103,7 @@
       </button>
     </header>
 
-    <section id="hizmetler" class="relative py-16 pt-60 bg-transparent">
+    <section id="hizmetler" class="relative py-16 bg-transparent">
       <div class="container mx-auto px-4">
         <h2 class="text-4xl font-bold text-center mb-12 text-white drop-shadow-lg">Çalışma Alanlarımız</h2>
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 px-4 md:px-8">
@@ -133,7 +132,6 @@
       </div>
     </section>
 
-    <!-- Process Section -->
     <section id="süreç" class="py-20 bg-transparent text-white">
       <div class="container mx-auto px-6">
         <h2 class="text-3xl sm:text-4xl font-bold text-center mb-12">Nasıl Çalışıyoruz?</h2>
@@ -153,18 +151,17 @@
       </div>
     </section>
 
-
     <footer id="iletisim" class="relative py-12 bg-transparent text-white">
       <div class="container mx-auto text-center px-4">
         <h3 class="text-2xl font-bold mb-6">İletişim</h3>
         <div class="space-y-4">
-          <a href="tel:+905377321437" class="inline-block bg-white bg-opacity-20 backdrop-blur-sm px-6 py-3 rounded-full font-semibold hover:bg-opacity-30 transition-all duration-300 shadow-lg wind-hover">
+          <a href="tel:+905377321437" class="inline-block bg-white bg-opacity-20 backdrop-blur-sm px-6 py-3 rounded-full font-semibold hover:bg-opacity-30 transition-all duration-300 shadow-lg wind-hover w-full sm:w-auto">
             📞 0537 732 14 37
           </a>
-          <a href="mailto:info@acarmuh.com" class="inline-block bg-white bg-opacity-20 backdrop-blur-sm px-6 py-3 rounded-full font-semibold hover:bg-opacity-30 transition-all duration-300 shadow-lg wind-hover">
+          <a href="mailto:info@acarmuh.com" class="inline-block bg-white bg-opacity-20 backdrop-blur-sm px-6 py-3 rounded-full font-semibold hover:bg-opacity-30 transition-all duration-300 shadow-lg wind-hover w-full sm:w-auto">
             ✉️ info@acarmuh.com
           </a>
-          <a href="https://wa.me/905377321437" target="_blank" class="inline-block bg-green-500 hover:bg-green-600 text-white font-semibold px-6 py-3 rounded-full transition-all duration-300 shadow-lg wind-hover">
+          <a href="https://wa.me/905377321437" target="_blank" class="inline-block bg-green-500 hover:bg-green-600 text-white font-semibold px-6 py-3 rounded-full transition-all duration-300 shadow-lg wind-hover w-full sm:w-auto">
             💬 WhatsApp ile İletişim
           </a>
         </div>
